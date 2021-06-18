@@ -1,0 +1,73 @@
+body{
+    margin: 0%;
+}
+
+h3{
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #C4C4C4;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding: 5px 10px;
+}
+
+#logo{
+    text-align: center;
+    background-color:#E5E5E5 ;
+}
+
+#espacioH1{
+    margin: 0%;
+    color: #005677;
+    text-align: center;
+    padding: 10px 0px;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #C4C4C4
+}
+#datos{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#footer{
+    background-color: #005677;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0px;
+    color: white;
+}
+
+.batman{
+    padding: 20px 0px;
+}
+
+.cuerpo{
+    padding: 8% 20%;
+}
+
+.fechas{
+    list-style-type: none;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.puntos{
+    margin-top: -18px;
+    padding-left: 90px;
+}
+
+.puntos li{
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.espacioFooter{
+    padding: 0px 15px;
+}

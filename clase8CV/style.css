@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+}
+
+h1{
+    color:rgb(88, 30, 45);
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(243, 222, 235,0.4);
+}
+
+#banner{
+    background-image: url(img/f2.jpg);
+    background-size: cover;
+    height: 75%;
+}
+
+#foto{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 15%;
+}
+
+.backMain{
+    background-color:rgb(244, 172, 136);
+    padding-left: 150px;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+.dato{
+    font-weight: bold;
+}
+
+.margenH3{
+    margin-top: 0%;
+    padding-top: 30px;
+}
+
+.marginUL{
+    margin-bottom: 0%;
+    padding-bottom: 50px;
+}
+
+.footerClass{
+    padding: 15px 0px;
+    text-align: center;
+    background-color:rgba(244, 172, 136,0.8);
+}
+
+.icono{
+    width: 20px;
+    padding-left: 20px;
+}
+
+.paddingSM{
+    background-color:rgb(244, 172, 136);
+    padding: 0px 200px;
+}
+
+.paddingSM h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.SM{
+    font-size: 20px;
+    margin: 0%;
+}
+
+.SM2{
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.volver{
+   text-decoration: none;
+   color: black;
+   margin-bottom: 20px;
+   background-color: #814952;
+   border: none;
+   width: 80px;
+   height: 30px;
+   font-size: 18px;
+   font-weight: bold;
+   border-radius: 10px;
+}
