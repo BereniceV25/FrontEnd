@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+button{
+    border: none;
+}
+
+input{
+    border: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+            color: white;
+}
+
+.colorHeader{
+    background-color: #222222;
+}
+
+.grandesOfertas{
+    padding-left: 9%;
+    color: white;
+    font-size: 10px;
+}
+
+.esp{
+    padding-left: 63%; 
+    padding-right: 1%;
+    color: white;
+    font-size: 10px;
+}
+
+.ARG{
+    color: white;
+    font-size: 10px;
+}
+
+.seccionHeader{
+    background-color: #F0A83E;
+    color:white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.logo{
+    padding-left: 2.5%;
+}
+
+.espacioLogoYCateg{
+    padding-left: 48%;
+}
+
+.icono{
+    padding-left: 2.5%; 
+}
+
+.imgBanner{
+    width: 100%;
+    position: relative; 
+    display: inline-block; 
+    text-align: center;
+}
+
+.posicionTextBanner{
+    position: absolute; 
+    top: 40%; 
+    left: 70%;
+    text-align: center;
+}
+
+.textoBanner{
+    background-color: #FFFFFF; 
+    font-size: 30px;
+    border-width: 10px;
+    border-radius: 5px; 
+    border-style: solid; 
+    border-color: white;
+}
+
+.textoBanner2{
+    color: #3C2313;
+}
+
+.botonBanner{
+    background-color: #F0A83E; 
+    height: 49px; 
+    width: 141px; 
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.h2{
+    color: #3C2313;
+}
+
+.colorletras{
+    color: #666666;
+}
+
+.tarjeta{
+    display: inline-block; 
+    margin-right: 20px;
+    background-color: #FBFAF6;
+}
+
+.precioTarjeta{
+    color: #F0A83E;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inputForm{
+   background-color: #3C2313; 
+   border-radius: 15px; 
+   width: 340px; 
+   height: 40px; 
+   border: none;
+   margin-bottom: 20px;
+}
+
+.botonResetear{
+    background-color: #8A8787; 
+    border-radius: 15px; 
+    width: 110px; 
+    height: 34px;
+    color: white;
+}
+
+.botonEnviar{
+    background-color: #F0A83E; 
+    border-radius: 15px; 
+    width: 110px; 
+    height: 34px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.h2Footer{
+    margin-right: 30%;
+}
+
+.correo{
+    border-radius: 15px;
+    width: 271px;
+    height: 40px;
+}
+
+/* ver los :: de placeholder*/
+.correo::placeholder{
+    color:#A0A0A0;
+}
+
+.botonFooter{
+    background-color: #3C2313;
+    border-radius: 15px;
+    width: 85px;
+    height: 34px;
+    color: #FFFFFF;
+}
+
+.location{
+    width: 179px;
+    height: 66px;
+    grid-area: 2/2/3/3;
+}
+
+.phone{
+    width:181px; 
+    height:66px; 
+    grid-area: 4/2/5/3;
+}
+
+.correoIcono{
+    width: 259px; 
+    height: 66px;
+    grid-area: 6/2/7/3;
+}
+
+.logoFooter{
+    grid-area: 4/4/5/5;
+}
+
+.logoFooter p{
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.logoFooter > img{
+    grid-row: 2/3;
+}
+
+.derechos{
+    display: flex; 
+    background-color: #222222; 
+    color: #FFFFFF; 
+    align-items: center; 
+    justify-content: center; 
+    height: 20px; 
+    padding: 4px 0px 4px 0px;
+}
+
+#productosCentro{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#muestraProductos{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+#formulario_de_contacto{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#suscripcion{
+    background-color: #F0A83E; 
+    color: #FFFFFF; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+#datos_de_contacto{
+    background-color: #3C2313;
+    display: grid; 
+    grid-template: 20px 1fr 20px 1fr 20px 1fr 20px/ 66px 1fr 1fr 166px 66px;
+}
